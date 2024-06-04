@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Abyssinica+SIL:regular);
+@font-face {
+	font-family: Lao MN;
+	font-weight: 400;
+	src: url('fonts/lao-mn.ttf');
+}
+
+:root {
+	--vw: 0.06944444;
+	--white: #fff;
+	--black: #000;
+	--red: #a60000;
+}
+
+/*Reset*/
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: Roboto, sans-serif;
+	background-color: var(--white);
+	-ms-text-size-adjust: auto;
+	-moz-text-size-adjust: auto;
+	-webkit-text-size-adjust: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+/*Common*/
+
+.wrapper {
+	padding-left: 120px;
+}
