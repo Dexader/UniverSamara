@@ -55,6 +55,10 @@ ul li {
 	list-style: none;
 }
 
+a {
+	color: inherit;
+}
+
 /*Common*/
 
 .wrapper {
@@ -86,7 +90,6 @@ ul li {
 }
 
 .menu__link {
-	color: inherit;
 	text-decoration: none;
 	transition: all .3s ease;
 	margin-bottom: -1px;
