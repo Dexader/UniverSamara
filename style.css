@@ -11,6 +11,8 @@
 	--white: #fff;
 	--black: #000;
 	--red: #a60000;
+	--blue: #013CD3;
+	--navy-blue: #03009C;
 }
 
 /*Reset*/
@@ -63,6 +65,12 @@ a {
 
 .wrapper {
 	padding-left: 120px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 30px;
+	color: var(--blue);
 }
 
 /*Header*/
@@ -222,4 +230,70 @@ a {
 		margin-left: auto;
 	}
 
+}
+
+/*Admission*/
+
+.admission {
+	padding-blockg: 64px 70px;
+}
+
+.admission__title {
+	margin-bottom: 64.5px;
+	padding-left: 120px;
+}
+
+hr {
+	background-color: gray;
+	height: 2px;
+}
+
+.admission__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.admission__card {
+	flex: 0 0 264px;
+	color: #000;
+}
+
+.admission__card-number {
+	width: 63px;
+	padding-block: 20.5px 21px;
+	margin-top: -2.5px;
+	font-weight: 700;
+	font-size: 54px;
+	color: var(--red);
+	border-top: 3px solid var(--red);
+}
+
+.admission__card-title {
+	margin-bottom: 21px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.admission__card-text {
+	min-height: 63px;
+	margin-bottom: 21px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.admission__card-link {
+	text-decoration: none;
+	color: var(--blue);
+}
+
+.admission__card-action {
+	display: block;
+	text-decoration-style: dotted;
+	color: var(--navy-blue);
+}
+
+.admission__card-action:not(:last-child) {
+	margin-bottom: 21px;
 }
