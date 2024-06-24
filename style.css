@@ -289,12 +289,22 @@ hr {
 .admission__card-link {
 	text-decoration: none;
 	color: var(--blue);
+	transition: all .3s ease;
+}
+
+.admission__card-link:hover {
+	text-decoration: underline;
 }
 
 .admission__card-action {
 	display: block;
 	text-decoration-style: dotted;
 	color: var(--navy-blue);
+	transition: all .3s ease;
+}
+
+.admission__card-action:hover {
+	text-decoration: none;
 }
 
 .admission__card-action:not(:last-child) {
@@ -334,6 +344,7 @@ hr {
 
 .red {
 	background-color: var(--red);
+	color: var(--white);
 }
 
 .stat__icon {
@@ -348,6 +359,10 @@ hr {
 .stat__number {
 	font-weight: 900;
 	font-size: clamp(18px, 37vw * var(--vw), 38px);
+}
+
+.fsize {
+	font-size: clamp(18px, 32vw * var(--vw), 33px);
 }
 
 .stat__text {
